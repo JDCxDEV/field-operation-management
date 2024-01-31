@@ -1,0 +1,109 @@
+@media (max-width: 426px) {
+  .custom-stepper {
+    display: none;
+  }
+
+  .custom-stepper-dropdown {
+    display: block !important;
+  }
+
+  .filter-text {
+    display: none;
+  }
+
+  .user-avatar {
+    text-align: center;
+    width: 100%;
+    margin-right: 0px !important;
+  }
+
+  .user-name-container {
+    display: block !important;
+    text-align: center !important;
+  }
+
+  .role-lg {
+    display: none !important;
+  }
+
+  .role-mobile {
+    display: block !important;
+  }
+
+  .contact-details-container {
+    display: inline-block !important;
+    width: 100%;
+
+    .text-overflow {
+      font-size: 12px;
+      overflow: hidden;
+      width: 45%;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      resize: none;
+      cursor: pointer;
+    }
+  }
+
+  .widget-100 {
+    width: 100% !important;
+  }
+
+  .widget-50 {
+    width: 48% !important;
+
+    &.mr-1 {
+      margin-right: 10px;
+    }
+  }
+
+  .nav-item-width {
+    width: 105px;
+  }
+
+  .tab-item {
+    font-size: 11px !important;
+  }
+
+  .tab-item-s {
+    font-size: 10px !important;
+  }
+
+  .bg-body {
+    width: 100% !important;
+  }
+
+  .login-logo {
+    width: 90% !important;
+  }
+
+  .stats-text-wrapper {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .footer {
+    font-size: 8px !important;
+  }
+
+}
+
+.table-min-height {
+  min-height: 350px;
+}
+
+.drawer-overlay {
+  pointer-events: none !important;
+}
+
+.accordion-custom-border {
+  border-top-left-radius: 0.475rem !important;
+  border-top-right-radius: 0.475rem !important;
+  &.light {
+    border: 1px solid #F4F4F4 !important;
+  }
+  &.dark {
+    border: 1px solid #2B2B40 !important;
+  }
+}
